@@ -241,6 +241,10 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	li {
+		margin: 15px 0;
+	}
+
 /* Container */
 
 	.container {
