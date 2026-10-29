@@ -2647,6 +2647,28 @@ input, select, textarea {
 			width: 12.25em;
 		}
 
+/* Header email */
+
+	#header .icons {
+		margin: 0.25em 0 0 0;   /* small gap under your name; raise or lower to taste */
+		padding: 0;
+	}
+
+		#header .icons li {
+			display: block;
+			font-size: 0.9em;
+			margin: 0;           /* overrides the global li { margin: 15px 0 } rule */
+			padding: 0;
+		}
+
+		#header .icons a {
+			color: rgba(255, 255, 255, 0.4);   /* gray, matching your name's tone */
+		}
+
+		#header .icons a:hover {
+			color: rgba(255, 255, 255, 0.7) !important;   /* !important needed to beat a:hover */
+		}
+
 
 /* Footer */
 
