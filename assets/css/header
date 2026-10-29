@@ -2662,11 +2662,11 @@ input, select, textarea {
 		}
 
 		#header .icons a {
-			color: rgba(255, 255, 255, 0.4);   /* gray, matching your name's tone */
+			color: rgba(255, 255, 255, 0.4) !important;   /* gray by default */
 		}
 
 		#header .icons a:hover {
-			color: rgba(255, 255, 255, 0.7) !important;   /* !important needed to beat a:hover */
+			color: #49bf9d !important;   /* green on hover (same green as the rest of the site) */
 		}
 
 
